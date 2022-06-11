@@ -1,0 +1,65 @@
+/* navbar */
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.tombol-1 {
+    text-transform: uppercase;
+    border-radius: 40px !important;
+}
+.tombol-2 {
+    text-transform: uppercase;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+    margin-top: 30px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-top: -5px;
+    background-image: url("/img/beck.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+.jumbotron h1 {
+    color: gray;
+}
+
+.info {
+    background-color: #292929;
+    background-size: auto;
+    position: absolute;
+    margin-top: -30px !important;
+    width: 1500px !important;
+}
+
+.search {
+    width: 700px;
+    margin-left: 163px;
+    margin-top: 215px;
+}
+.card {
+    background-color: #4a4c52 !important;
+    border: 1px solid #3a3431 !important;
+    position: relative;
+    width: 700px !important;
+    margin-top: 20px !important;
+    margin-bottom: 50px;
+    margin-left: 175px !important;
+}
+.card .card-tourney {
+    display: block;
+    background: #4a4c52;
+    color: #e5e4e3;
+    clear: left;
+    text-decoration: none;
+    outline: 0;
+}
