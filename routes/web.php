@@ -21,10 +21,25 @@ Route::get('/', function () {
 });
 
 
-Route::get('index/tournaments', function () {
-    return view('tournaments');
+Route::get('index/tournament', function () {
+    return view('main.tournament');
 });
 
+Route::get('index/tournament/bracket', function () {
+    return view('main.bracket');
+});
+
+Route::get('index/tournament/add', function () {
+    return view('main.add');
+});
+
+Route::get('index/tournament/settings', function () {
+    return view('main.settings');
+});
+
+Route::get('index/new', function () {
+    return view('main.new');
+});
 
 Route::get('auth/register', function () {
     return view('auth/register');

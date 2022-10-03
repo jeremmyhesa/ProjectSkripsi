@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{-- My Css --}}
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/new.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -45,8 +46,7 @@
   {{-- Jumbotron --}}
   <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
     <div class="container py-5">
-      <h1 class="display-5 fw-bold">Your Tournaments</h1>
-      <a href="index/new" class="btn btn-primary tombol-2">Create a Tournament</a>
+      <h1 class="display-5 fw-bold">New Tournament</h1>
 
     </div>
   </div>
@@ -56,20 +56,45 @@
   <div class="container">
   <div class="row justify-content-center">
     <div class="col-10 info">
-      <div class="row">
-        <div class="col-5">
-          <form class="d-flex search">
-            <input class="form-control me-2" type="search" placeholder="Search your tournaments" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        <div class="row g-2 align-items-center">
+          <div class></div>
+          <div class="col-auto form">
+            <label for="username" class="col-form-label">Host</label>
+          </div> 
+          <div class="col-auto form-text">
+            <input type="username" id="username" class="form-control">
           </div>
-          <div class="card">
-          <a class="card-tourney" href="index/tournament">
-            <div class="card-body">
-              <h5 class="card-title">Piala Warkop</h5>
-              <p class="card-text">Single Elimination</p>
-            </a>
+          </div>
+          <div class="row g-2 align-items-center baris2">
+            <div class></div>
+            <div class="col-auto form">
+              <label for="username" class="col-form-label">Tournament Name</label>
+            </div> 
+            <div class="col-auto form-text2">
+              <input type="username" id="username" class="form-control">
             </div>
+            </div>
+            <div class="row g-2 align-items-center baris3">
+              <div class></div>
+              <div class="col-auto form">
+                <label for="username" class="col-form-label">Game</label>
+              </div> 
+              <div class="col-auto form-text3">
+                <input type="username" id="username" class="form-control">
+              </div>
+              </div>
+              <div class="row g-2 align-items-center baris4">
+                <div class></div>
+                <div class="col-auto form">
+                  <label for="username" class="col-form-label">Date Start</label>
+                </div> 
+                <div class="col-auto form-text4">
+                  <input type="username" id="username" class="form-control">
+                </div>
+                </div>
+                <a href="/index" class="btn btn-primary tombol"><span>Create</span></a>
+      </form>
+        </div>
           </div>
         </div>
       </div>

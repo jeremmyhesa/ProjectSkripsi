@@ -1,0 +1,67 @@
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+.dropdown {
+    margin-left: 60px;
+    margin-right: -90px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-top: -5px;
+    /* background-image: url("/img/beck.jpg"); */
+    background-size: cover;
+    z-index: 1;
+}
+.jumbotron h1 {
+    color: gray;
+}
+.info h5 {
+    color: gray;
+}
+.info img {
+    width: 20px;
+    padding:0;
+    margin-left: -150px;
+    margin-top: -5px;
+}
+.user img {
+    margin-left: 0;
+}
+.joystick img {
+    width: 27px;
+}
+
+.item .link2 {
+    color: white !important;
+    font-family: Viga;
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: -50px ;
+}
+
+.navbar2 {
+    margin-top: -22px;
+}
+.navdown, .link2 {
+    padding: 0;
+    margin-left: 105px;
+}
+.link2:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+

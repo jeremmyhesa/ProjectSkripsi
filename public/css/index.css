@@ -29,6 +29,10 @@
     background-size: cover;
     z-index: 1;
 }
+.dropdown {
+    margin-right: -90px;
+    margin-left: 50px;
+}
 .jumbotron h1 {
     color: gray;
 }
