@@ -17,7 +17,7 @@
 /* Jumbotron */
 .jumbotron {
     margin-top: -5px;
-    /* background-image: url("/img/beck.jpg"); */
+    background-image: url("/img/beck.jpg");
     background-size: cover;
     z-index: 1;
 }
@@ -49,7 +49,7 @@
 }
 
 .navbar2 {
-    margin-top: -22px;
+    margin-top: -28px;
 }
 .navdown, .link2 {
     padding: 0;
@@ -64,4 +64,40 @@
     padding-bottom: 5px;
     margin-bottom: -8px;
 }
+/* Card */
+.card {
+    margin-left: 128px;
+    background-color: grey !important;
+}
+.card , p {
+color: white !important;
+}
 
+
+/* End Card */
+/* Table */
+.table {
+    margin-top: 30px;
+    margin-left: 128px;
+    width: 500px !important;
+}
+.table, td {
+    color: white;
+}
+/* End Table */
+
+/* Form Tournament add */
+.addForm {
+    margin-top: 50px;
+
+}
+
+.form-control {
+    width: 500px !important;
+    margin-left: 128px;
+}
+
+.addButton {
+    margin-top: 10px;
+    margin-left: 128px;
+}

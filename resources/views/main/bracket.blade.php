@@ -93,7 +93,9 @@
   </div>
 </nav>
 
-<main id='tournament'>
+{{-- Bracket --}}
+<div class="bg-dark">
+<main id='tournament' class="bracket">
   <ul class='round round-1'>
     <li class='spacer'>&nbsp;</li>
         <li class='game game-top'>Dwi<span>57</span></li>
@@ -118,5 +120,6 @@
         <li class='spacer'>&nbsp;</li>
   </ul>
 </main>
-
+</div>
+{{-- End Bracket --}}
 

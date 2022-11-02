@@ -49,7 +49,7 @@
 {{-- akhir navbar --}}
 
  {{-- Jumbotron --}}
- <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
+ <div class="p-5 mb-4 rounded-3 jumbotron">
   <div class="container py-5">
     <h1 class="display-5 fw-bold">Nama Tournament</h1>
 
@@ -70,13 +70,6 @@
   </div>
   </div>
 
-{{-- <div class="col item">
-  <div class="row">
-    <div class="col-1">
-      <a class="btn btn-dark nav-item nav-link active" aria-current="page" href="#">Bracket</a>
-    </div>
-  </div>
-</div> --}}
   </div>
 </div>
 {{-- Akhir Jumbotron --}}
@@ -97,31 +90,5 @@
     </div>
   </div>
 </nav>
-
-{{-- <main id='tournament'>
-  <ul class='round round-1'>
-    <li class='spacer'>&nbsp;</li>
-        <li class='game game-top'>Dwi<span>57</span></li>
-        <li class='game game-spacer'></li>
-        <li class='game game-bottom'>Sakethi<span>32</span></li>
-        <li class='spacer'>&nbsp;</li>
-        <li class='game game-top'>Ucok<span></span>13</li>
-        <li class='game game-spacer'></li>
-        <li class='game game-bottom'>Jeremy Hesa<span>78</span></li>
-        <li class='spacer'>&nbsp;</li>
-  </ul>
-  <ul class='round round-2'>
-    <li class='spacer'>&nbsp;</li>
-        <li class='game game-top'>Dwi<span>53</span></li>
-        <li class='game game-spacer'></li>
-        <li class='game game-bottom'>Jeremy Hesa<span>81</span></li>
-        <li class='spacer'>&nbsp;</li>
-  </ul>
-  <ul class='round round-3'>
-    <li class='spacer'>&nbsp;</li>
-        <li class='game game-bottom'>Jeremy Hesa<span></span></li>
-        <li class='spacer'>&nbsp;</li>
-  </ul>
-</main> --}}
 
 

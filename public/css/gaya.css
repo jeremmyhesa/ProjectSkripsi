@@ -48,4 +48,11 @@ li.game{
   li.game-bottom{ 
     border-top:1px solid #aaa;
   }
+  /* bracket */
+  .bracket {
+    margin-left: 128px;
+  }
+  .bracket, li {
+    color: white;
+  }
  

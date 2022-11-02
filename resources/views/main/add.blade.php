@@ -52,7 +52,7 @@
 {{-- akhir navbar --}}
 
  {{-- Jumbotron --}}
- <div class="p-5 mb-4 bg-light rounded-3 jumbotron">
+ <div class="p-5 mb-4 bg-dark rounded-3 jumbotron">
   <div class="container py-5">
     <h1 class="display-5 fw-bold">Nama Tournament</h1>
 
@@ -92,3 +92,46 @@
     </div>
   </div>
 </nav>
+
+<div class="bg-dark">
+{{-- Content Box --}}
+
+{{-- Cards hints --}}
+<div class="card bg-dark">
+  <h5 class="card-header">Hints !</h5>
+  <div class="card-body">
+    <p class="card-text">After adding 2 or more participants below, return to the Bracket for a preview and the next step.</p>
+  </div>
+</div>
+{{-- Akhir Cards --}}
+
+{{-- Akhir content --}}
+<table class="table">
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td colspan="2">Larry the Bird</td>
+      <td><a href="#" class="btn btn-danger">Delete</a></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td colspan="2">Larry the Bird</td>
+      <td><a href="#" class="btn btn-danger">Delete</a></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td><a href="#" class="btn btn-danger">Delete</a></td>
+  </tbody>
+</table>
+{{-- Form participants --}}
+<form>
+  <div class="mb-3 addForm">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp" placeholder="Team Name">
+  <button type="submit" class="btn btn-primary addButton">Add</button>
+</form>
+{{-- Akhir Form --}}
+</div>
+
+
